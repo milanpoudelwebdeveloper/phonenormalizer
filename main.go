@@ -21,3 +21,12 @@ func normalize(phone string) string {
 	//we want real digits only  (123) 456-7893 -> 1234567893
 
 }
+
+// using regular expressions to normalize the phone number
+// func normalize(phone string) string {
+// 	//Here "D" is a non-digit character "
+// 	re := regexp.MustCompile("\\D")
+// 	//replace all non-digit characters with an empty string
+// 	return re.ReplaceAllString(phone, "")
+
+// }
